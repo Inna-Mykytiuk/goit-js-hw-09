@@ -36,6 +36,6 @@ btnCreatePromise.addEventListener('click', e => {
         );
       });
   }
-
-  form.reset();
+  e.target.reset();
+  // form.reset();
 });
